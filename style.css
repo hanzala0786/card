@@ -1,0 +1,52 @@
+.card{
+    /* border: 1px solid black; */
+    margin: 100px;
+    border-radius: 3%;
+    width: 378px;
+    height: 350px;
+    box-shadow: 1px 1px 0px black, -1px -1px 0px black;
+    align-items: center;
+    
+}
+.card:hover{
+    box-shadow: 4px 4px 6px gray;
+    cursor: pointer;
+}
+figure{
+    margin: 0px;
+}
+img{
+    margin: 15px 15px 15px 15px;
+    border-radius: 3%;
+    width: 348px;
+    height: 199px;
+}
+figcaption{
+    margin-left: 12px;
+    font-size: x-large;
+    font-weight: 600;
+}
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.DPrice{
+   margin: 12px;
+   font-size: larger;
+   color: blue;
+   font-weight: 600; 
+}
+.Price{
+    margin: 12px;
+    font-size: larger;
+    font-weight: 600;
+}
+#PDiscnt{
+    margin: 60px;
+    padding: 3px 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: inline;
+    background-color: green;
+    color: aliceblue;
+}
